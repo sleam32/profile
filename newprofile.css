@@ -1,0 +1,148 @@
+#wrapper{
+	width: 960px;
+	margin: 0 auto 0;
+	position: relative;
+	
+}
+
+header{
+	float:left;
+	width:960px;
+	height: 140px;
+	padding:0 15px 0 15px;
+}
+
+header div{
+	margin-top: 60px;
+}
+
+#nav ul, #nav li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+#nav a{
+	background-color: black;
+	font-family: Georgia;
+	color: white;
+	border: 1px solid;
+	margin: 0;
+	padding: 0;
+}
+
+#nav a:hover{
+color: red;
+}
+
+#nav.stack > a, #nav.stack >a:hover{
+	background-image: open.png;
+}
+
+#nav ul.stack > a, #nav.stack > a:hover{
+	background-image: open.png;
+}
+
+.clearLeft{
+	clear: left;
+}
+
+/*nav{
+	float:left;
+	width: 960px;
+	height: 40px;
+}*/
+
+.navbar-top{
+	/*float: left;*/
+	display: inline;
+	margin-top: 70px;
+	margin-left: 15px;
+}
+
+/*.navbar-top p{
+	text-align: center;
+}*/
+
+
+article{
+	float:left;
+	width: 630px;
+}
+
+article section{
+	float: left;
+	width: 600px;
+	margin:0 0 10px 0;
+	padding:0 15px 0 15px;
+}
+
+
+aside{
+	float: left;
+	width: 315px;
+	margin-left: 15px;
+	padding-top: 250px;
+}
+
+.para-aside1{
+	border-bottom: solid; 
+}
+
+#footer{
+	clear: both;
+	width: 930px;
+	height: 100px;
+	padding:0 15px 0 15px;
+	color: gray;
+	text-align: center;
+}
+
+.fancybox{
+	margin-left: 180px;
+}
+
+p{
+	line-height: 22px;
+	color: gray;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: Georgia;
+	font-weight: lighter;
+}
+
+h1{
+	color: red;
+}
+
+h2{
+	color: #3366FF;
+}
+
+.special{
+	margin-left: 10px;
+	padding-top: 50px;
+	font-size: 75px;
+	color: red;
+}
+
+.different{
+	margin-left: 15px;
+	margin-top: -55px;
+}
+
+
+h3{
+	color: #33CCFF;
+}
+
+.picRight{
+	float: right;
+	margin:0 0 20px 20px;
+}
+
+.gallery-text{
+	text-align: center;
+	width: 960px;
+}
